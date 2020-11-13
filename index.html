@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Juaracoding</title>
+    <link rel="stylesheet" href="./assets/css/movie.css">
+    <link rel="stylesheet" href="./assets/css/index.css"/>
+    <link rel="stylesheet" href="./assets/css/alert.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./assets/js/index.js" defer></script>
+    <script src="./assets/js/variabel.js" defer></script>
+    <script src="./assets/js/input.js" defer></script>
+    <script src="./assets/js/hapus.js".js" defer></script>
+</head>
+<body>
+  <div class="column" >
+        <h1 align="center">
+          Ulangan 1 Juara Koding
+        </h1>
+        <div class="column input">
+         <table>
+           <tr>
+             <td>Judul <br>   <span id="errorJudul" class="error"></span></td>
+             <td class="td-right">
+              <input type ="text" name="judul" id="inputJudul">      
+            </td>
+           </tr>
+           <tr>
+             <td class="td-left">Uri Gambar</td>
+             <td class="td-right">
+              <input type ="text" name="uriGambar" id="uriGambar">
+            </td>
+           </tr>
+           <tr rowspan="3">
+             <td><span id="errorUri"  class="error"></span></td>
+           </tr>
+           <tr>
+             <td>Sinopsis <br> <span id="errorSinopsis"  class="error"></span></td>
+             <td class="td-right">
+              <textarea id="sinopsis" cols="5" rows="20"></textarea>  
+            </td>
+
+           </tr>
+           <tr  style="text-align: right; padding-right: 150px;">
+             <td colspan="3"><input type="button" value="tambah kontent" onclick="objekBaru()"/></td> 
+           </tr>
+         </table>
+        </div>
+        <div id="isi">    
+
+      </div>
+      </div>
+      <footer>
+          &copy; Teguh Muhammad harits
+      </footer>
+</body>
+</html>
